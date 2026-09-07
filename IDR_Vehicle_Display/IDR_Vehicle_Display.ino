@@ -122,7 +122,7 @@ void loop() {
   readTouchControls();
 #endif
 
-  if (gState.demoMode || MOCK_DATA_MODE) {
+  if (gState.demoMode) {
     updateMockNavigation(gDemo, gState, nowMs);
   }
 
